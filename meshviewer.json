@@ -1,0 +1,10 @@
+<?php
+
+/*
+ * This file only exists because of CORS-Restrictions
+ * It's more or less a "proxy"
+ */
+
+header('Content-Type: application/json');
+$homepage = file_get_contents('https://mate.ffbsee.net/data/meshviewer.json');
+echo $homepage;

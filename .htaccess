@@ -1,0 +1,4 @@
+# JUST IN CASE YOU NEED THE meshviewer.json as php-driven proxy
+<FilesMatch "meshviewer\.(json)$">
+AddHandler application/x-httpd-php .json
+</FilesMatch>
